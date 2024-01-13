@@ -1,0 +1,19 @@
+<div class="field">
+    <h1 class="field-title">Сборная Украины</h1>
+    <div class="field-container">
+        <div class="players-list" *ngFor="let player of players">
+            <div class="player">
+                <img class="img" [src] = player.path alt="photo">
+                <div class="player-number">{{player.number}}</div>
+                <div class="player-name">{{player.name}}</div>
+                <div class="player-surname">{{player.surname}}</div>
+            </div>
+        </div>
+
+
+        <div class="field">
+
+        </div>
+    </div>
+</div>
+<p>football-field works!</p>
